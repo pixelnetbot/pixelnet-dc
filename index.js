@@ -1,14 +1,14 @@
 const sizeOf = require('image-size') 
 
- const axios = require('axios') 
+const axios = require('axios') 
 
- const Canvas = require('canvas'); 
+const Canvas = require('canvas'); 
 
- const jimp = require('jimp'); 
+const jimp = require('jimp'); 
 
- const gifFrames = require('gif-frames'); 
+const gifFrames = require('gif-frames'); 
 
- const GIFEncoder = require('gif-encoder-2'); 
+const GIFEncoder = require('gif-encoder-2'); 
 
   
 
@@ -158,7 +158,6 @@ const sizeOf = require('image-size')
 
   
 
-     /* method  to get image size from its url */ 
 
      async _getImageSize(url) { 
 
@@ -176,7 +175,6 @@ const sizeOf = require('image-size')
 
   
 
-     /* method to render frame */ 
 
      async _renderFrame(frame) { 
 
@@ -270,7 +268,6 @@ const sizeOf = require('image-size')
 
   
 
-     /* method to generate static image */ 
 
      async _generateImage() { 
 
@@ -366,7 +363,6 @@ const sizeOf = require('image-size')
 
   
 
-     /* generate image with saved settings */ 
 
      async generate() { 
 
